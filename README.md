@@ -404,7 +404,7 @@ agentforge/
 ### Install
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Khaledz148/AgentForge.git
 cd agentforge
 npm install
 ```
