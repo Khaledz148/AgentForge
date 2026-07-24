@@ -1,22 +1,30 @@
-<div align="center">
+<p align="center">
   <img src="./public/agentforge-mark.svg" alt="AgentForge logo" width="92" />
+</p>
 
-  # AgentForge
+<h1 align="center">AgentForge</h1>
 
-  ### A production-minded multi-agent AI workspace for event strategy and execution planning
+<h3 align="center">
+  A production-minded multi-agent AI workspace for event strategy and execution planning
+</h3>
 
-  **From Brief to Execution**
+<p align="center">
+  <strong>From Brief to Execution</strong>
+</p>
 
+<p align="center">
   AgentForge transforms an unstructured event brief into a reviewed, budget-aware,
   technically feasible proposal—with visible agent collaboration, self-correction,
   and automatically generated architectural concepts.
+</p>
 
-  [![Next.js](https://img.shields.io/badge/Next.js-14-000000?logo=nextdotjs)](https://nextjs.org/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-  [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--5.6--Sol-412991?logo=openai&logoColor=white)](https://platform.openai.com/)
-  [![Arabic RTL](https://img.shields.io/badge/Interface-Arabic%20RTL-23D5AB)](#arabic-first-saudi-ready)
-  [![Zod](https://img.shields.io/badge/Outputs-Zod%20Validated-3068B7)](https://zod.dev/)
-</div>
+<p align="center">
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-14-000000?logo=nextdotjs" alt="Next.js 14" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-Strict-3178C6?logo=typescript&amp;logoColor=white" alt="TypeScript strict mode" /></a>
+  <a href="https://platform.openai.com/"><img src="https://img.shields.io/badge/OpenAI-GPT--5.6--Sol-412991?logo=openai&amp;logoColor=white" alt="OpenAI GPT-5.6 Sol" /></a>
+  <a href="#arabic-first-saudi-ready"><img src="https://img.shields.io/badge/Interface-Arabic%20RTL-23D5AB" alt="Arabic RTL interface" /></a>
+  <a href="https://zod.dev/"><img src="https://img.shields.io/badge/Outputs-Zod%20Validated-3068B7" alt="Zod validated outputs" /></a>
+</p>
 
 ---
 
@@ -646,5 +654,3 @@ rate limiting, audit logs, secret rotation, and formal privacy review should be 
   Built to demonstrate autonomous coordination, structured collaboration, and
   responsible self-correction in applied AI products.
 </div>
-#   A g e n t F o r g e  
- 
