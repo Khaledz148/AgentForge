@@ -1,0 +1,3 @@
+"use client";
+import { AlertTriangle, RefreshCw } from "lucide-react";
+export default function Error({ reset }: { error: Error & { digest?: string }; reset: () => void }) { return <main className="grid min-h-screen place-items-center p-6"><div className="glass max-w-md rounded-3xl p-8 text-center"><AlertTriangle className="mx-auto text-amber-300" size={32}/><h1 className="mt-4 font-display text-2xl font-bold">حدث خطأ في مساحة العمل</h1><p className="mt-3 text-sm leading-6 text-slate-400">يمكنك المتابعة بأمان. أعد تحميل المساحة وابدأ تشغيلًا جديدًا.</p><button onClick={reset} className="mt-6 inline-flex items-center gap-2 rounded-xl bg-violet-500 px-5 py-3 text-sm font-semibold"><RefreshCw size={15}/>إعادة تحميل المساحة</button></div></main>; }

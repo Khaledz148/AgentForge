@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: #f8fafc; background: #070b17; font-family: var(--font-arabic), sans-serif; }
+body::before { content: ""; position: fixed; inset: 0; z-index: -2; background: radial-gradient(circle at 15% 10%, rgba(108,99,255,.13), transparent 30%), radial-gradient(circle at 85% 20%, rgba(35,213,171,.08), transparent 27%), linear-gradient(180deg,#070b17,#080d1b 55%,#070b17); }
+body::after { content: ""; position: fixed; inset: 0; z-index: -1; opacity: .045; background-image: linear-gradient(rgba(255,255,255,.5) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.5) 1px,transparent 1px); background-size: 48px 48px; mask-image: linear-gradient(to bottom,black,transparent 75%); }
+::selection { background: rgba(108,99,255,.55); }
+.glass { background: linear-gradient(145deg,rgba(16,24,43,.88),rgba(12,19,35,.73)); border: 1px solid rgba(148,163,184,.14); box-shadow: 0 22px 60px rgba(0,0,0,.2); backdrop-filter: blur(16px); }
+.field { width: 100%; border-radius: .75rem; border: 1px solid rgba(148,163,184,.16); background: rgba(5,10,24,.6); color: #f8fafc; outline: none; transition: .2s; }
+.field:focus { border-color: rgba(108,99,255,.75); box-shadow: 0 0 0 3px rgba(108,99,255,.12); }
+.field::placeholder { color: #64748b; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid #8b7cff; outline-offset: 3px; }
+[dir="ltr"] { font-family: var(--font-space), sans-serif; }
+.scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }.scrollbar::-webkit-scrollbar-thumb { background:#29344c;border-radius:999px; }
+@keyframes scan { from{transform:translateX(-100%)} to{transform:translateX(300%)} }
+.animate-scan { animation: scan 1.8s linear infinite; }
+@media print { @page { size:A4; margin:12mm } body { background:white!important;color:#111827!important } body::before,body::after,.no-print { display:none!important }.proposal-print { display:block!important;background:white!important;border:0!important;color:#111827!important;box-shadow:none!important }.proposal-print * { color:#111827!important }.proposal-print header,.proposal-print .proposal-mockup>div>div:last-child { background:#10182b!important;color:white!important;print-color-adjust:exact;-webkit-print-color-adjust:exact }.proposal-print header *, .proposal-print footer, .proposal-print footer *, .proposal-print .proposal-mockup>div>div:last-child * { color:white!important }.proposal-print footer { background:#4f46e5!important;print-color-adjust:exact;-webkit-print-color-adjust:exact }.proposal-print section { break-inside:avoid }.proposal-print .proposal-mockup { break-inside:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact }.proposal-print .proposal-mockup img { print-color-adjust:exact;-webkit-print-color-adjust:exact }.proposal-print:after { content:"AgentForge · From Brief to Execution"; display:block;margin-top:8mm;text-align:center;font:600 9pt var(--font-space),sans-serif;color:#64748b!important } }
